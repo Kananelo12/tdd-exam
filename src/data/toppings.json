@@ -1,5 +1,5 @@
 [
-  { "name": "Cherries", "imagePath": "/images/cherries.png" },
-  { "name": "M&Ms",     "imagePath": "/images/m-and-ms.png"   },
-  { "name": "Hot fudge", "imagePath": "/images/hot-fudge.png" }
+  { "name": "Sprinkles", "imagePath": "/images/sprinkles.png" },
+  { "name": "Gummy Bears", "imagePath": "/images/gummy-bears.png" },
+  { "name": "Caramel", "imagePath": "/images/caramel.png" }
 ]

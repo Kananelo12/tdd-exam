@@ -1,19 +1,19 @@
 import "@testing-library/jest-dom";
 
 const mockScoopData = [
-  { name: "Chocolate", imagePath: "/images/chocolate.png" },
-  { name: "Vanilla",   imagePath: "/images/vanilla.png"   },
+  { name: "Strawberry", imagePath: "/images/strawberry.png" },
+  { name: "Mint", imagePath: "/images/mint.png" },
 ];
 
 const mockToppingData = [
-  { name: "Cherries",  imagePath: "/images/cherries.png" },
-  { name: "M&Ms",      imagePath: "/images/mms.png"      },
-  { name: "Hot Fudge", imagePath: "/images/hot-fudge.png" },
+  { name: "Sprinkles", imagePath: "/images/sprinkles.png" },
+  { name: "Gummy Bears", imagePath: "/images/gummy-bears.png" },
+  { name: "Caramel", imagePath: "/images/caramel.png" },
 ];
 
 // A tiny helper to delay in tests
 function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Stub fetch globally in tests, with a small delay on the POST
