@@ -19,7 +19,7 @@ export default function OrderConfirmation({ resetOrder }) {
 
   return (
     <div>
-      <h1>Thank You!</h1>
+      <h1>Thank You</h1>
       <p>Order Number: {orderNumber}</p>
       <button onClick={resetOrder}>New Order</button>
     </div>
