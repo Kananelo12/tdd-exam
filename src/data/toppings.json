@@ -1,0 +1,5 @@
+[
+  { "name": "Sprinkles", "imagePath": "/images/sprinkles.png" },
+  { "name": "Gummy Bears", "imagePath": "/images/gummy-bears.png" },
+  { "name": "Caramel", "imagePath": "/images/caramel.png" }
+]
